@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp">
+    <TextView
+        android:id="@+id/tv_titlejump"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:text="xxx"
+
+        />
+    <Button
+        android:id="@+id/tv_buttonCB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="come back to A"
+
+        />
+
+    <EditText
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"/>
+    <Button
+        android:id="@+id/tv_buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Submit"
+        />
+    <Button
+        android:id="@+id/tv_buttoncancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Cancel"
+        />
+
+    <Button
+        android:id="@+id/tv_jumpTBB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="jump to b"
+        />
+
+
+</LinearLayout>

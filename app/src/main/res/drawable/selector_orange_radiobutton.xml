@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--select 根据不同的选定状态来定义不同的现实效果, selected, focused, pressed, enabled-->
+
+    <item android:state_checked="true">
+        <shape>
+            <solid android:color="#AA6600"/>
+            <corners android:radius="5dp"/>
+        </shape>
+
+    </item>
+
+
+    <item android:state_checked="false">
+        <shape>
+                                            <!--here is the strok means, 边框-->
+            <stroke android:color="#AA6600"
+                android:width="1dp"/>
+            <corners android:radius="5dp"/>
+
+        </shape>
+
+
+    </item>
+</selector>

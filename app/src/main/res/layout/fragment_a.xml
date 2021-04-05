@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/fl_changeTB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="更换为B的Fragment"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/fl_changeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="更换textview的文内容"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/fl_changeActTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更换Activity Text的文内容,Activity 与 Fragment 传递数据"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="40sp"
+        android:text="我是 A"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".button.ButtonFunctionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_methode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="点击事件的几种方法"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_method_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="10dp"
+        android:text="通过内部类"/>
+
+    <Button
+        android:id="@+id/btn_method_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="10dp"
+        android:text="通过匿名内部类"/>
+    <Button
+        android:id="@+id/btn_method_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="10dp"
+        android:text="通过事件源所在类"/>
+
+    <Button
+        android:id="@+id/btn_method_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="10dp"
+        android:text="通过外部类"/>
+    <Button
+        android:id="@+id/btn_method_5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="10dp"
+        android:onClick="shows"
+        android:text="布局文件中onClick"/>
+<!--    onClick 可以访问.java 里的方法，寻找一样的-->
+
+    <Button
+        android:id="@+id/btn_method_6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="10dp"
+
+        android:text="button OnToucher 一些listener"/>
+
+    <com.example.debuggertest.Widget.MyButton
+        android:id="@+id/btn_method_7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="10dp"
+
+        android:text="基于回调事件处理机制"/>
+
+    <Button
+        android:id="@+id/btn_method_8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="10dp"
+
+        android:text="Handler Event Activity"/>
+</LinearLayout>

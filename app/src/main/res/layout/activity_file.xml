@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".datastorage.SharedPreferencesActivity"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Intent to be shown"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_nameex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="input"/>
+
+    <Button
+        android:id="@+id/btn_saveex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save to external file"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_contentex"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Intent to be shown"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_showex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show from internal file"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

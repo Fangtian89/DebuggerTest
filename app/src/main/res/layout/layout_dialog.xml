@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:maxLines="1"/>
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="numberPassword"
+        android:hint="Password"
+        android:layout_below="@id/et_username"
+        android:maxLines="1"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_login"
+       android:layout_width="100dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/et_password"
+
+        android:text="Login"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_quit"
+        android:layout_width="100dp"
+
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_login"
+        android:layout_below="@id/et_password"
+        android:text="Quit"/>
+
+
+</RelativeLayout>

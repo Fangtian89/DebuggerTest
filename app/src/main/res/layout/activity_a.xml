@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <Button
+        android:id="@+id/jumpTb"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Jump to b"/>
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="xxx"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/textPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxx"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/jumpTA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Jump to a"/>
+
+
+
+</LinearLayout>

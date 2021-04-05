@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="10dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/money"
+    android:paddingBottom="5dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_centerInParent="true"
+    >
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="here is password"
+        android:background="@drawable/text_shape"
+        android:ems="10"
+        android:gravity="center"
+
+        android:hint="Username"
+        android:inputType=""
+        android:maxLines="1"
+
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="15dp"
+        android:autofillHints=""
+        android:background="@drawable/text_shape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+
+        android:maxLines="1"
+        android:textSize="30dp"
+
+         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:text="submit"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+         />
+
+    <Button
+        android:id="@+id/new_page"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="30dp"
+        android:text="view"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/new_dialog"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="30dp"
+        android:text="Dialog"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/new_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="30dp"
+        android:text="ButtonFunction"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btn_data"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="30dp"
+        android:text="数据存储"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

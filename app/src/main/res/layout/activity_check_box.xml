@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxActivity">
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:text="你会的移动开发"
+        />
+
+    <CheckBox
+        android:id="@+id/ck_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="5dp"
+        android:text="安卓系统"
+        android:textSize="20sp"
+        />
+    <CheckBox
+        android:id="@+id/ck_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ck_1"
+        android:text="苹果系统"
+        android:textSize="20sp"
+        />
+    <CheckBox
+        android:id="@+id/ck_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ck_2"
+        android:text="Play Mode 3"
+        android:textSize="20sp"
+        />
+    <CheckBox
+        android:id="@+id/ck_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ck_3"
+        android:text="Play Mode 4"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:id="@+id/linearlayoutMiddle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/ck_4">
+
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="you favarite play mode is: "
+            android:textSize="20sp"
+            android:textColor="#000"/>
+        <CheckBox
+            android:id="@+id/subck_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mode 1"
+            android:button="@drawable/bg_checkbox"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/subck_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mode 2"
+            android:button="@drawable/bg_checkbox"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/subck_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mode 3"
+            android:button="@drawable/bg_checkbox"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/subck_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mode 4"
+            android:button="@drawable/bg_checkbox"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"/>
+        <Switch
+            android:id="@+id/switchbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mode Switch"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"/>
+
+
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/lastlinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/linearlayoutMiddle"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="#5ff5d7"
+        android:src="@drawable/lottoball"
+        android:scaleType="fitXY"/>
+    <ImageView
+    android:layout_width="250dp"
+    android:layout_height="180dp"
+    android:background="#5ff5d7"
+    android:src="@drawable/lottoball"
+    android:scaleType="fitCenter"/>         //important characteristics
+</LinearLayout>
+
+
+</RelativeLayout>
